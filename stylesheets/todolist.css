@@ -1,0 +1,63 @@
+/*name of the font is roboto-slab, you assigned it to a variable name --roboto-font*/
+:root {
+	--roboto-font: 'Roboto Slab', serif;
+}
+
+html {
+    height: 100%;
+    margin: 0;
+  }
+
+body{
+    background-image: url("../images/todolist-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    color: white;
+}
+
+.remove {
+    margin-top: 13px;
+    float: right;
+    clear: both;
+    padding-right: 20px;
+    border-radius: 5px;
+    width: 70px;
+    height: 30px;
+    border-style: none;
+    text-align: center;
+}
+
+.bg-cover{
+    position: absolute;
+    min-height: 100vh;
+    min-width: 100vw;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(25, 25, 112, 0.6);
+}
+
+ul {
+    list-style: decimal;
+    line-height: 50px;
+    font-style: initial;
+    font-family: var(--roboto-font);
+}
+
+h1{
+    margin-top: 10rem;
+	margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-weight: 500;
+    font-style: initial;
+    font-family: var(--roboto-font);
+}
+
+.hr{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    border-top: 1px solid white;
+    width: 50%;
+    overflow: visible;
+}

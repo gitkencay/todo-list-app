@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="images/title-icon.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="stylesheets/todolist.css">
+    <title>Todolist app</title>
+</head>
+
+<body>
+    <div class="bg-cover">
+        <div class="container">
+            <!-- display is a bootstrap components -->
+            <h1 class="display-1 text-center"> TodoList </h1>
+            <div class="row">
+                <!-- //col lg is a bootstrap components -->
+                <div class="col-lg-6 mx-auto">
+                    <div class="input-group">
+                        <input id="task" class="form-control" placeholder="todo list">
+                        <span>
+                            <button id="add" type="button" class="btn btn-primary">Add</button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 mx-auto">
+                    <hr class="hr">
+                    <div id="todos" class="col-lg-6 mx-auto"> </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="scripts/todoscripts.js"></script>
+</body>
+
+</html>
